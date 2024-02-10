@@ -1,4 +1,4 @@
-## project vision
+## Project Vision
 
 Spurious correlation is an undesirable phenomenon prevalent in contemporary Natural Language Processing (NLP) tasks. Statistically, it is defined as any correlation between two variables that appears to be causal but is actually not. The existence of spurious correlation can be dangerous in commercial NLP models, as the model concludes false correlation to predict the seemingly right results on the training set, then triggers abnormal performance on the test sets by relying too much on this spurious relationship between specific attributes and the label.
 
@@ -8,7 +8,7 @@ We propose a revised two-stage training pipeline to im- improve the model’s ca
 1. By deploying a more advanced group-balancing technique, we achieve a noticeable increase in the worst group accuracy.
 2. By appending a biLSTM layer to a pre-trained BERT model, we improve the worst group performance specifically on input texts with the issue of long-term dependencies.
 
-## Instruction for reproducibility
+## Instruction for Reproducibility
 
 To download the data, please follow the instructions according to https://github.com/anniesch/jtt. 
 
