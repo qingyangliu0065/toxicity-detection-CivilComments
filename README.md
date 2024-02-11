@@ -1,5 +1,7 @@
 ## Project Vision
 
+- Porject report can be found at: https://drive.google.com/file/d/1WMA_fJ9_wvPkFniG-BkpAU7eMeXN4_-H/view?usp=sharing
+
 Spurious correlation is an undesirable phenomenon prevalent in contemporary Natural Language Processing (NLP) tasks. Statistically, it is defined as any correlation between two variables that appears to be causal but is actually not. The existence of spurious correlation can be dangerous in commercial NLP models, as the model concludes false correlation to predict the seemingly right results on the training set, then triggers abnormal performance on the test sets by relying too much on this spurious relationship between specific attributes and the label.
 
 In our work, we try to mitigate the effects of spurious correlation in toxic online comment detection. Given an input text of a comment x ∈ X, we want to classify whether the comment is toxic Y = {toxic; non-toxic}, which is spuriously correlated with the mentions of the demographic identities A = {identity, no identity}. Figure 1 shows sample sentences from the dataset illustrating this definition. Here demographic identity refers to a set of 8 sensitive identities including male, female, LGBTQ, Christian, Muslim, other religions, Black, and White.
